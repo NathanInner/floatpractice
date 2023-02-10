@@ -1,0 +1,50 @@
+
+body {
+    max-width: max-content;
+    text-align: center;
+    border: 2px solid blue;
+}
+
+html {
+    background-color: lightblue;
+}
+
+body footer {
+    align-items: center;
+    font-size: 75%;
+}
+
+img {
+    max-width: 700px;
+    max-height: 400px;
+    min-width: 600px;
+    min-height: 400px;
+}
+
+
+
+.left img {
+    float: left;
+    margin-left: 1em;
+    padding: 30px;
+}
+
+.right img {
+    float: right;
+    margin-right: 1em;
+}
+
+.right p{
+    padding: 30px;
+    margin-right: 3em;
+    font-size: 150%;
+}
+
+.left p{
+    padding: 1em;
+    font-size: 160%
+}
+
+.shrink {
+    max-width: 600px;
+}
